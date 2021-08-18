@@ -1,0 +1,217 @@
+body {
+  font-family: "游ゴシック";
+  background-image: url(image/background.png);
+  background-repeat: inherit;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.top {
+  padding-top: 2.5em;
+  width: 60em;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.top img[alt="ロゴマーク"] {
+  width: 30em;
+}
+
+.top img[alt="TOP画像"] {
+  width: 30em;
+}
+
+.top p {
+  text-align: center;
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.about {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 10em;
+}
+
+.about img[alt="ロゴマーク"] {
+  width: 13em;
+}
+
+.about img[alt="図"] {
+  width: 25em;
+  margin: 0 auto;
+  margin-top: 3em;
+}
+h1 {
+  text-align: center;
+}
+
+.about p {
+  width: 33em;
+  line-height: 2em;
+  margin: 0 auto;
+  margin-top: 3em;
+  text-align: left;
+}
+
+.demo {
+  margin: 20px;
+}
+.demo__title {
+  margin: 20px;
+  font-size: 18px;
+  background: linear-gradient(transparent 70%, #fbd1d2 30%);
+}
+.demo__sub-text {
+  margin: 20px 20px 40px;
+  font-size: 13px;
+}
+.tab__area {
+  color: #333;
+  margin: 30px 10px;
+  width: auto;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.tab__list {
+  display: table;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  zoom: 1;
+  table-layout: fixed;
+  border-spacing: 0;
+  margin: 0 auto;
+}
+.tab__item {
+  display: table-cell;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.tab__item a {
+  box-sizing: border-box;
+  display: block;
+  padding: 15px;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+  color: #969797;
+  border: 1px solid #ccc;
+  border-radius: 3px 3px 0 0;
+  background-color: #eee;
+  font-size: 1.5em;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* タブ選択時の文字色の指定 */
+
+/* タブ01（ピンク）の背景色と文字色の指定 */
+.tab__item:first-child a.selected {
+  background-color: #fb9a51;
+  border: #fb9a51;
+}
+
+/* タブ02（オレンジ）の背景色と文字色の指定 */
+.tab__item:nth-child(2) a.selected {
+  background-color: #5ca6a5;
+  border: #5ca6a5;
+}
+
+.tab__item a.selected {
+  color: #fff;
+}
+
+/* hover時の背景色（グレー）の指定 */
+.tab__item a:hover {
+  background-color: #ddd;
+}
+
+.tab__inner {
+  margin-top: -1px;
+}
+/* タブ01（ピンク）選択時のコンテンツ内の背景色の指定 */
+.tab__inner .pink {
+  padding: 20px;
+  background-color: #fff;
+}
+/* タブ02（オレンジ）選択時のコンテンツ内の背景色の指定 */
+.tab__inner .orange {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.step_block {
+  width: 20em;
+  height: 25em;
+}
+
+#tab_1,
+#tab_2 {
+  width: 80em;
+  height: 55em;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+#tab_1 img,
+#tab_2 img {
+  width: 18em;
+  margin: 0 auto;
+}
+
+.exp1 {
+  width: 22em;
+  background-color: #ffdbc1;
+  padding: 1em 1em 2.5em 1em;
+  margin: 0 auto;
+  margin-top: 2em;
+}
+
+.exp2 {
+  width: 22em;
+  background-color: #c1e2e4;
+  padding: 1em 1em 2.5em 1em;
+  margin: 0 auto;
+  margin-top: 2em;
+}
+
+#tab_1 p,
+#tab_2 p {
+  width: 20em;
+  margin: 0 auto;
+}
+
+#tab_1 h2,
+#tab_2 h2 {
+  text-align: center;
+}
+
+.step_block {
+  height: 30em;
+  width: 25em;
+  display: flex;
+  flex-flow: column;
+  margin-top: 5em;
+}
+
+.use {
+  margin-top: 8em;
+  height: 60em;
+  margin-bottom: 8em;
+}
+
+.movie {
+  text-align: center;
+  height: 20em;
+  margin-bottom: 10em;
+}
